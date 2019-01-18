@@ -30,14 +30,8 @@ body {
 /* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
 /* NOTE: Centering content only works when the display property is "flex"! */
 .center-content {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	width:calc(100%/3);
+	height:100%;
 }
 
 /* Use this class on your image to restrict the size so it stays completely within it's parent div */
-.restrict-size {
-	max-height: 100%;
-	max-width: 100%;
-
-}
