@@ -37,6 +37,5 @@ body {
 
 /* Use this class on your image to restrict the size so it stays completely within it's parent div */
 .restrict-size {
-	max-height: 100%;
-	max-width: 100%;
+	width:calc(100%/3);
 }
