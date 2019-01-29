@@ -12,18 +12,21 @@ function opaque(el){
 function normal(el){
 	document.getElementById("two").classList.toggle("normal");
 	
-	document.getElementById("two").classList.toggle("normal");
 
 }
 function one(el){
-	document.getElementById("one").classList.toggle("7rings");
+	document.getElementById("one").classList.toggle("cabello");
 	
 }	
 function two(el){
-	document.getElementById("two").classList.toggle("charles");
+	document.getElementById("two").classList.toggle("ringz");
 	
 }	
 	
 function three(el){
-	document.getElementById("three").classList.toggle("arrow");		
+	document.getElementById("three").classList.toggle("charles");		
+}
+
+function four(el){
+	document.getElementById("four").classList.toggle("jenner");		
 }
