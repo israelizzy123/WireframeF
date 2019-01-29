@@ -36,16 +36,29 @@ body {
 
 /* Use this class on your image to restrict the size so it stays completely within it's parent div */
 .7rings{
-	content:url("image/ariana.jpg");
+	content:url("image/7rings.jpg");
+}
+
+.ringz{
+	content:url("image/ringz.jpg");
 }
 
 .charles{
-content:url("image/james.jpg");
+content:url("image/charles.jpg");
 }
 
-.arrow{
-	content:url("image/bulls_eye.png");
+.camila{
+	content:url("image/camila.jpeg");
 }
+
+.cabello{
+	content:url("image/cabello.jpg");
+}
+
+.jenner{
+	content:url("image/jenner.jpg");
+}
+
 .restrict-img-size{
 	max-height: 100%;
 	max-width:100%;
