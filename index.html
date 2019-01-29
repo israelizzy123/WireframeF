@@ -13,10 +13,15 @@
 	<body>
 		<div class="section red"></div>
 		<div class="pic-holder blue">
-			<img src="image/bulls_eye.png" class="center-content"/>
-			<img src="image/ariana.jpg" class="center-content"/>
-			<img src="image/james.jpg" class="center-content"/>
+		   <div class="pic">
+			<img class="restrict-img-size" id = "one" src="image/bulls_eye.png" onmouseover="opaque(this)" onmouseout="normal(this)" onclick="one(this)" />
+		
+			<img class="restrict-img-size" id = "two" src="image/ariana.jpg" onmouseover="opaque(this)"onmouseout="normal(this)"onclick="two(this)" />
+		
+			<img class="restrict-img-size" id = "three" src="image/james.jpg"onmouseover="opaque(this)"onmouseout="normal(this)"onclick="three(this)"  />
+			</div>
 		</div>
 		<div class="section pink"></div>
+		<script src="javascript.js"></script>
 	</body>
 </html>
