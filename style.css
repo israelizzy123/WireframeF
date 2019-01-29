@@ -35,3 +35,18 @@ body {
 }
 
 /* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.7rings{
+	content:url("image/ariana.jpg");
+}
+
+.charles{
+content:url("image/james.jpg");
+}
+
+.arrow{
+	content:url("image/bulls_eye.png");
+}
+.restrict-img-size{
+	max-height: 100%;
+	max-width:100%;
+}
